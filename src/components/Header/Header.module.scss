@@ -1,0 +1,65 @@
+.header {
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #d5d5d5;
+}
+
+.div_seo_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  &_button {
+    position: relative;
+    display: block;
+    width: 12px;
+    height: 1px;
+    background: #262637;
+    margin-left: 30px;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 12px;
+      height: 1px;
+      background: #262637;
+      top: 6px;
+    }
+    &::after {
+      position: absolute;
+      content: "";
+      width: 12px;
+      height: 1px;
+      background: #262637;
+      bottom: 6px;
+    }
+  }
+}
+
+.demo {
+  height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.6s;
+  overflow: hidden;
+  > a {
+    padding: 10px;
+    opacity: 0;
+    transition: .6s;
+  }
+  &_active {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s;
+    height: 15vh;
+    >a{
+      opacity: 1;
+      transition: .6s;
+    }
+  }
+}

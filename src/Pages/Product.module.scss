@@ -1,0 +1,25 @@
+.Filter {
+  display: flex;
+  gap: 30px;
+  align-items: baseline;
+  padding: 9px 15px;
+  background: #fff;
+  border-bottom: 1px solid #dfdfe1;
+  > h4 {
+    color: #53535f;
+    font-size: 20.484px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 112.281% */
+  }
+  > p {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    color: #262637;
+    font-size: 15.938px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 250.98% */
+  }
+}

@@ -1,0 +1,76 @@
+<div className="form">
+      <div className="label-radius">Радиус</div>
+      <div className="div-dsrm-select">
+        <div className="options">
+          <div className="div">
+            <div className="text-wrapper">Укажите радиус в метрах</div>
+          </div>
+        </div>
+      </div>
+      <div className="label-property-type">Тип недвижимости</div>
+      <div className="overlap-group-wrapper">
+        <div className="overlap-group">
+          <div className="div-wrapper">
+            <div className="div">
+              <div className="text-wrapper-2">Любое</div>
+            </div>
+          </div>
+          <img className="img" alt="Img" src={Arrow} />
+        </div>
+      </div>
+      <div className="label-bedrooms">Комнаты</div>
+      <div className="overlap-wrapper">
+        <div className="overlap-group">
+          <div className="options-2">
+            <div className="div-2">
+              <div className="text-wrapper-3">-</div>
+            </div>
+          </div>
+          <img className="img-2" alt="Img" src={Arrow} />
+        </div>
+      </div>
+      <div className="div-dsrm-select-2">
+        <div className="overlap-group">
+          <div className="options-3">
+            <div className="div-3">
+              <div className="text-wrapper-4">-</div>
+            </div>
+          </div>
+          <img className="img-3" alt="Img" src={Arrow} />
+        </div>
+      </div>
+      <div className="label-price">Цена</div>
+      <div className="div-dsrm-select-3">
+        <div className="overlap-group">
+          <div className="options-4">
+            <div className="div-4">
+              <div className="text-wrapper-3">-</div>
+            </div>
+          </div>
+          <img className="img-4" alt="Img" src={Arrow} />
+        </div>
+      </div>
+      <div className="div-dsrm-select-4">
+        <div className="overlap-group">
+          <div className="options-4">
+            <div className="div-4">
+              <div className="text-wrapper-4">-</div>
+            </div>
+          </div>
+          <img className="img-4" alt="Img" src={Arrow} />
+        </div>
+      </div>
+      <div className="label-added-to-site">По дате добавления</div>
+      <div className="div-dsrm-select-5">
+        <div className="overlap-group">
+          <div className="div-wrapper">
+            <div className="div">
+              <div className="text-wrapper-5">Любые</div>
+            </div>
+          </div>
+          <img className="img" alt="Img" src={Arrow} />
+        </div>
+      </div>
+      <span className='span'></span>
+      <div className="label-include-let">Включая арендованные жилье</div>
+    </div>

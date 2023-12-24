@@ -1,0 +1,51 @@
+.div_recentsearches {
+  height: 56px;
+  position: relative;
+  margin: 32px 0 16px;
+}
+
+.heading {
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 390px;
+}
+
+.text_wrapper {
+  color: #262637;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14.4px;
+  font-weight: 400;
+  height: 19px;
+  left: 16px;
+  letter-spacing: 0.1px;
+  line-height: 28px;
+  position: absolute;
+  top: 3px;
+  white-space: nowrap;
+  width: 115px;
+}
+
+.p_recentsearches {
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 28px;
+  width: 390px;
+}
+
+.div {
+  color: #717184;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12.5px;
+  font-weight: 400;
+  height: 17px;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+  width: 174px;
+}

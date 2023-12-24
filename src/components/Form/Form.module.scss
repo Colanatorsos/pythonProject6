@@ -1,0 +1,32 @@
+.Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #262637;
+  padding: 5px 5px;
+  > input {
+    width: 100%;
+    border-radius: 8px 0px 0px 8px;
+    background: #fff;
+    padding: 9px 30px 11px 10px;
+    border: none;
+
+    color: #53535f;
+    font-size: 16.469px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  > button {
+    padding: 15.5px 20px;
+    background: #262637;
+    border: none;
+
+    color: #fff;
+    text-align: center;
+    font-size: 15.25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
