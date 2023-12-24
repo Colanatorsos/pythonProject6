@@ -1,0 +1,13 @@
+coreschema
+Django
+django-celery-beat
+django-timezone-field
+djangorestframework
+djangorestframework-simplejwt
+MarkupSafe
+packaging
+Pillow
+prompt-toolkit
+PyJWT
+python-decouple
+
